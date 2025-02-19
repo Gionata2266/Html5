@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    /*um codigo simples para alguem que estudou so 1 mes nas ferias me diverti*/
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    /* Alinha para direita ao centro */
+    align-items: center;
+    /* Alinha para baixo ao centro */
+    height: 90vh;
+    /* Define a altura total da viewport */
+}
+
+.input {
+    padding: 2px;
+    height: 20px;
+    width: 300px;
+    font-family: fantasy;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(66, 55, 55, 0.98);
+
+}
+
+header a:hover {
+    color: white;
+    background: black;
+    transition: all 2s;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: deepskyblue;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: rgba(5, 4, 4, 0.656)
+}
+
+[divbody] {
+    background-image: url(/assets/Craig\ Adderley.jpg);
+    /*por. Craig Adderley*/
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.button {
+    padding: 4px;
+    height: 30px;
+    background: rgb(182, 179, 179);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centraliza horizontalmente */
+    height: 45em;
+    width: 100vw;
+    background-image: url(/assets/Craig\ Adderley.jpg);
+    background-size: cover;
+    /* Garante que a imagem cubra toda a área */
+}
+
+p {
+
+    color: white;
+}
+
+h1 {
+    margin-bottom: 80px;
+}
+
+[img] {
+    height: 230px;
+    width: 300px;
+
+}
+
+.borda {
+    margin-bottom: 30px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* Centraliza horizontalmente */
+    height: 45em;
+    width: 100vw;
+    background-image: url(/assets/Craig\ Adderley.jpg);
+    background-size: cover;
+
+}
+
+.valor {
+    margin-left: 20em;
+    margin-top: 28px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.borda {
+    margin-right: 20px;
+    /* Espaço entre a imagem e o link */
+}
+
+.item {
+    display: flex;
+    /* Usando flexbox para alinhar imagem e link */
+    align-items: center;
+    /* ^^  \/ \/ cima paa meio*/
+    margin-bottom: 30px;
+    /* Espaço entre os itens */
+    border: 1px solid #ffffff;
+    /*  borda para destacar o produto */
+    padding: 10px;
+    /* Espaço interno */
+    background: rgba(24, 21, 21, 0.7);
+    /* Fundo levemente claro para contraste */
+    border-radius: 15px;
+    /* Bordas arredondadas */
+    justify-content: center;
+    /*esquerda para meio*/
+}
+
+
+.two h1 {
+    margin-bottom: 20px;
+    /* Espaço abaixo do título */
+    margin-left: 24em;
+}
+
+.imagemparadireita {
+    margin-left: 100px;
+
+}
+
+.three {
+    height: 45em;
+    width: 100vw;
+    background-image: url(/assets/Craig\ Adderley.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.login {
+    background: rgba(21, 19, 19, 0.7); /* Fundo levemente claro para contraste */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    margin: 15px 0; /* Espaço entre os campos */
+    padding: 10px;
+    width: 250px; /* Largura dos campos */
+
+}
+
+button {
+    padding: 10px 20px;
+    background: deepskyblue;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(34, 34, 202); /* Efeito hover */
+}
+
+label{
+    color:white;
+}
