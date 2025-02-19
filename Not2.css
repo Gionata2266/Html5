@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.heading {
+    display: flex;
+    background: black;
+    padding: 18px
+}
+
+.cab {
+    margin-right: 78%;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+    padding: 5px;
+}
+
+.cab:hover {
+    color: black;
+    background: white;
+
+}
+
+.red {
+    color: red;
+    text-transform: uppercase;
+    
+}
+
+.serch {
+    margin-right: 10px;
+}
+
+body {
+    background-image: url(/assets/space-art-5626848_1280.jpg);
+    background-size: cover;
+}
+
+.pesquisa{
+    margin-right: 20px;
+   
+}
+    .sectionpesquise {
+       height: 300px; 
+        
+    }
+
+    .pesq{
+        display: flex;
+        flex-direction: column; /* Alinha os elementos em coluna */
+        align-items: center; 
+    }
+
+
+    [buttonpes]{
+        width: 80px;
+        height: 40px;
+        background: gold;
+        color: rgba(0, 0, 0);
+    }
+
+
+.pesquisa input {
+    height: 35px;
+    width: 550px;
+}
+
+label {
+    cursor: pointer;
+    font-family: fantasy;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    height: 25px;
+    padding: 20px;
+    margin-bottom: 10px;
+
+}
+
+.m {
+    font-size: 20px;
+}
+
+.m:hover {
+    color: white;
+}
+
+div header{
+    background: black;
+    display:flex;
+    justify-content: space-between;
+    padding: 28px;
+    margin-bottom: 6%;
+}
+
+div header a:hover{
+  color: white;
+}
+
+ form{
+    border: 3px solid black;
+    height: 400px;
+    width: 800px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    
+ }
+
+ main{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   /* Centraliza horizontalmente */
+    
+}
+
+form div input, form div label{
+    width: 300px;
+    height: 25px;
+    margin: 10px;
+    display:flex;
+    
+}
+
+[bb]{
+    padding: 7px;
+    margin: 15px;
+    background: rgb(165, 165, 165);
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.inputaltura{
+    margin-top: 20px;
+}
