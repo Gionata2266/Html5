@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif ;
+}
+
+header{
+    background: rgb(19, 21, 74);
+    width: 100%;
+    height: 19%;
+}
+[s]{
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content:space-between;
+}
+img{
+    width: 10%;
+
+}
+.blackfriday{
+    font-size: 35px;
+}
+select{
+    height: 43px;
+    border-radius: 10px;
+
+}
+
+input{
+    width: 50em ;
+    height: 40px;
+    border-radius: 10px;
+    
+    
+}
+.blackfriday a{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.all{
+    display: flex;
+    
+}
+button{
+    width: 50px;
+    height: 45px;
+    background-image: url(/assets/png-clipart-button-search-button-internet-search-engine-thumbnail.png);
+    background-size: cover;    
+    border-radius: 10px;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(188, 147, 0);
+}
+ul li{
+    list-style: none;
+}
+
+.selec{
+    background: rgb(188, 147, 0);
+}
+
+.all select{
+    background: rgba(184, 177, 177, 0.759);
+}
+main{
+    background-image: url(/assets/anuncio.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: 28cm;
+}
+
+main div a img{
+    height: 200px;
+    width: 250px;
+    margin-top: 10%;
+    border: 6px solid black;
+}
+
+.ce{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;  
+   
+    
+}
+
+.ci{
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+button,a:hover{
+    color: grey;
+}
